@@ -34,7 +34,8 @@ export default [
             'cloneElement',
             'isValidElement',
           ],
-          'react-is': ['ForwardRef'],
+          'react-is': ['ForwardRef', 'isFragment'],
+          'prop-types': ['elementType'],
         },
       }),
       babel({
