@@ -34,7 +34,7 @@ export default [
             'cloneElement',
             'isValidElement',
           ],
-          'react-is': ['ForwardRef', 'isFragment'],
+          'react-is': ['ForwardRef'],
           'prop-types': ['elementType'],
         },
       }),
