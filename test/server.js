@@ -15,4 +15,5 @@ app.use(
   }),
 );
 
-app.listen(3001);
+const config = {port: 3001}
+app.listen(config.port, () => console.log(`LISTENING ON ${config.port}`))
