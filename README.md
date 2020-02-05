@@ -13,6 +13,7 @@ onto your computer and follow the install instructions.
 the folder.
 3. In a terminal session, `cd` into the `docket` repo and run `npm run start`.
 This will get the backend running.
+NOTE: This command will not represent changes in src/
 4. In a separate terminal session, `cd` into the `docket-ui` repo and run
 `npm run test:server`. This will get the frontend running.
 

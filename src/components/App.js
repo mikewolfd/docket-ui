@@ -17,6 +17,7 @@ import {
 import MenuIcon from '@material-ui/icons/Menu';
 import { makeStyles } from '@material-ui/core/styles';
 import Notice from './Notice';
+import Login from './Login'
 import AddressEntryForm from './AddressEntryForm';
 
 export type Address = {
@@ -145,15 +146,17 @@ const App = () => {
           <Typography variant="h6">Court Scraper</Typography>
         </Toolbar>
       </AppBar>
+      <Login />
 
       <Notice error={error} success={success} />
 
-      <Grid container spacing={3}>
+      {/* <Grid container spacing={3}>
         <Grid item xs={12} className={clsx(classes.content, classes.subHead)}>
           <Typography variant="subtitle1">
             Address Entry / Correction
           </Typography>
         </Grid>
+        <Login
 
         {loading && (
           <Grid item xs={12} className={classes.content}>
@@ -171,15 +174,15 @@ const App = () => {
             >
               Reload Cases
             </Button>
-          </Grid>
-        )}
+          </Grid> */}
+      {/* )}
         {pendingCaseIds && pendingCaseIds.length > 0 && (
           <AddressEntryForm
             caseId={pendingCaseIds[0]}
             onUpdateAddress={handleAddAddress}
           />
         )}
-      </Grid>
+      </Grid> */}
     </div>
   );
 };
