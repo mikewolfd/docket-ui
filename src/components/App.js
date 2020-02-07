@@ -19,7 +19,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Notice from './Notice';
 import Login from './Login'
 import AddressEntryForm from './AddressEntryForm';
-
+import Login from './Login';
 export type Address = {
   street: string,
   extra?: string,
@@ -149,6 +149,7 @@ const App = () => {
       <Login />
 
       <Notice error={error} success={success} />
+      <Login />
 
       {/* <Grid container spacing={3}>
         <Grid item xs={12} className={clsx(classes.content, classes.subHead)}>
