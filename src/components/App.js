@@ -17,7 +17,6 @@ import {
 import MenuIcon from '@material-ui/icons/Menu';
 import { makeStyles } from '@material-ui/core/styles';
 import Notice from './Notice';
-import Login from './Login'
 import AddressEntryForm from './AddressEntryForm';
 import Login from './Login';
 export type Address = {

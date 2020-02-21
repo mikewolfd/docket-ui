@@ -1,6 +1,6 @@
 import React from 'react';
 // import firebase from 'firebase';
-import firebase from 'config/firebaseconfig.js';
+import * as firebase from 'firebase/app';
 
 const handleLogin = () => {
   firebase
